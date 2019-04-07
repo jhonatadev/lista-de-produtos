@@ -8,6 +8,12 @@
     </nav>
 
     <div class="container">
+      <ul>
+        <li v-for="(erro, index) of errors" :key="index">
+          campo <strong>{{erro.filed}}</strong> - {{ erro.defaultMessage}}
+        </li>
+      </ul>
+
         <div class="section">
           <form @submit.prevent="salvar">
               <label>Nome</label>
@@ -58,7 +64,8 @@ export default{
         quantidade: '',
         valor: ''
       },
-      produtos: []
+      produtos: [],
+      errors: []
     }
   },
 
@@ -78,6 +85,9 @@ export default{
         this.produto = {}
         alert('Salvo com sucesso!')
         this.listar()
+        this.errors = []
+      }).catch(e => {
+        this.errors = e.response.data.errors
       })
     }
   }
