@@ -1,4 +1,4 @@
-# 📌 Lista de Produtos
+# 📌 Lista de Produtos usando VueJS
 
 ---
 
