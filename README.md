@@ -1,6 +1,5 @@
 # 📌 Lista de Produtos usando VueJS
 
----
 
 ## Baixe todas as dependências
 ```
