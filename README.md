@@ -2,12 +2,12 @@
 
 ---
 
-## Project setup
+## Baixe todas as dependências
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
+### Agora inicie o projeto, e dale Vue!
 ```
 npm run serve
 ```
