@@ -3,7 +3,7 @@
 
     <nav>
       <div class="nav-wrapper blue darken-1">
-        <a href="#" class="brand-logo center">Produtos Front</a>
+        <a href="#" class="brand-logo center">Lista de Produtos | VueJS ❤</a>
       </div>
     </nav>
 
@@ -19,7 +19,7 @@
               <label>Nome</label>
               <input type="text" placeholder="Nome" v-model="produto.nome">
               <label>Quantidade</label>
-              <input type="number" placeholder="QTD" v-model="produto.quantidade">
+              <input type="number" placeholder="Quantidade" v-model="produto.quantidade">
               <label>Valor</label>
               <input type="text" placeholder="Valor" v-model="produto.valor">
 
